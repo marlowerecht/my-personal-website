@@ -14,7 +14,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-.about {
+.about, .projects {
     padding: 5%
 }
 
@@ -30,7 +30,7 @@ div#am h3, div#do h3 {
     text-align: center;
 }
 
-.about h2 {
+.about h2, .projects h2 {
     text-transform: lowercase;
 }
 
