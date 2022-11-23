@@ -10,9 +10,9 @@ header {
     border-bottom: .5em solid white;
 }
 
-nav a:hover {
+/*nav a:hover {
     font-weight: bold;
-}
+}*/
 
 .about, .projects, .contact, .me {
     padding: 5%

@@ -1,3 +1,5 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+const links = document.querySelectorAll('nav a');
+
+links.addEventListener("mouseover", function hoverOver() {
+    links.style.fontWeight = "bold";
+});
