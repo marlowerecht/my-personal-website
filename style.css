@@ -1,5 +1,6 @@
 body {
-    background: whitesmoke;
+    background-image: linear-gradient(to bottom right, pink, white, pink);
+    background-repeat: no-repeat;
 }
 
 header {
