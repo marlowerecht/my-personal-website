@@ -5,9 +5,39 @@ body {
 
 header {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 5%;
+    border-bottom: .5em solid white;
 }
 
 nav a:hover {
     font-weight: bold;
+}
+
+.about {
+    padding: 5%
+}
+
+.aboutDivs {
+    display: inline;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 40%;
+}
+
+div#am h3, div#do h3 {
+    text-align: center;
+}
+
+.about h2 {
+    text-transform: lowercase;
+}
+
+h2, h3 {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.about p {
+    line-height: 2;
 }
